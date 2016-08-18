@@ -1,0 +1,13 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+
+    compile group: 'com.google.guava', name: 'guava', version: '19.0'
+    compile group: 'dnsjava', name: 'dnsjava', version: '2.1.7'
+
+    testCompile 'junit:junit:4.12'
+}
